@@ -212,6 +212,10 @@
     \printfield{year}%
     \newunit%
   }
+  \par
+  \newblock
+  \setunit{\space}
+  \footnotesize\hspace*{10cm}\printfield{note}
   \par\vspace{0.3\baselineskip}
 }
 
@@ -251,6 +255,10 @@
     \printlist{location}%
     \newunit%
   }
+  \par
+  \newblock
+  \setunit{\space}
+  \footnotesize\hspace*{10cm}\printfield{note}
   \par\vspace{0.3\baselineskip}
 }
 
@@ -267,6 +275,8 @@
     \printfield{note}%
     \setunit*{\addcomma\space}%
     \printfield{year}%
+    \setunit*{\addcomma\space}%
+    \printfield{howpublished}%
     \setunit{\addcomma\space}%
     \printlist{location}%
     \newunit%
